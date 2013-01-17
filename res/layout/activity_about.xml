@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About" >
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/about" />
+
+    <Button
+        android:layout_width="@dimen/About_width"
+        android:layout_height="@dimen/About_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Blue"
+        android:text="@string/QUIT"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/font_medium"
+        android:onClick="OnClickQuit" />
+        
+</RelativeLayout>
